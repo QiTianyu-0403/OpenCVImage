@@ -26,7 +26,7 @@ C++
 
 ## Result
 
-<img src="https://github.com/QiTianyu-0403/OpenCVImage/blob/main/1.jpg" width="600" >
+<img src="https://github.com/QiTianyu-0403/OpenCVImage/blob/main/1.jpg" width="900" >
 
 ## More
 
