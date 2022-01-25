@@ -1,0 +1,14 @@
+F://program//image//camer_cab//left01.jpg
+F://program//image//camer_cab//left02.jpg
+F://program//image//camer_cab//left03.jpg
+F://program//image//camer_cab//left04.jpg
+F://program//image//camer_cab//left05.jpg
+F://program//image//camer_cab//left06.jpg
+F://program//image//camer_cab//left07.jpg
+F://program//image//camer_cab//left08.jpg
+F://program//image//camer_cab//left09.jpg
+F://program//image//camer_cab//left10.jpg
+F://program//image//camer_cab//left11.jpg
+F://program//image//camer_cab//left12.jpg
+F://program//image//camer_cab//left13.jpg
+F://program//image//camer_cab//left14.jpg
