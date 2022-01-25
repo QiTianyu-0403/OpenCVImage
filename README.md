@@ -26,7 +26,7 @@ C++
 
 ## Result
 
-picture
+<img src="https://github.com/QiTianyu-0403/Barcode/blob/main/result/1.jpeg" width="600" >
 
 ## More
 
