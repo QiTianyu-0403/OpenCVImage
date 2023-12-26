@@ -31,3 +31,5 @@ C++
 ## More
 
 If you want to know more about this code, you can click [the detailed explanation](https://zhuanlan.zhihu.com/p/461643864) of this code or contact me via the link above.😊
+
+You can find a python version of similar functionality [here](https://github.com/Livioni/pyqt_image_process).
