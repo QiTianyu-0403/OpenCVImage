@@ -4,10 +4,10 @@
 
 int main( int argc, char* argv[] )
 {
-  vector<vector<Point>> contours;
+  std::vector<std::vector<cv::Point>> contours;
 
   QApplication a( argc, argv );
   MainWindow w;
   w.show();
-  return a.exec();
+  return QApplication::exec();
 }

@@ -1,8 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
-
 #pragma once
-#pragma execution_character_set( "utf-8" ) // display chinese words
+// #pragma execution_character_set("utf-8")//display chinese words
 
 #include <QMainWindow>
 #include <opencv2/opencv.hpp>
@@ -14,24 +11,24 @@
 #include <opencv2/ml.hpp>
 #include <QFileDialog>
 #include <QVector>
-#include <iostream>
-#include <algorithm>
-#include <limits>
+// #include <iostream>
+// #include <algorithm>
+// #include <limits>
 #include <qmath.h>
-#include <vector>
+// #include <vector>
 #include <opencv2/calib3d/calib3d.hpp>
-#include "opencv2/calib3d.hpp"
-// #include <opencv2/xfeatures2d.hpp>
+// #include "opencv2/calib3d.hpp"
+//  #include <opencv2/xfeatures2d.hpp>
 #include <opencv2/features2d/features2d.hpp>
-#include <stdio.h>
-#include <fstream>
+// #include <stdio.h>
+// #include <fstream>
 #include <opencv2/highgui/highgui_c.h>
 #include <opencv2/highgui.hpp>
 // #include <opencv2/optflow/motempl.hpp>
 // #include <opencv2/xfeatures2d.hpp>
-#include "opencv2/imgcodecs/legacy/constants_c.h"
-using namespace cv;
-using namespace std;
+// #include "opencv2/imgcodecs/legacy/constants_c.h"
+// using namespace cv;
+// using namespace std;
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -42,11 +39,14 @@ QT_END_NAMESPACE
 class MainWindow : public QMainWindow
 {
   // Q_OBJECT
+private:
+  Ui::MainWindow* ui;
+  cv::Mat srcImg, grayImg, noiseImg;
+  std::string openFile( const char* filterDesc );
 
 public:
   MainWindow( QWidget* parent = nullptr );
   ~MainWindow();
-  Mat srcImg, grayImg, noiseImg;
 
 private slots:
   void on_pushButton_clicked();
@@ -117,7 +117,7 @@ private slots:
 
   void on_color_fit_clicked();
 
-  void on_svm_test_clicked();
+  static void on_svm_test_clicked();
 
   void on_word_test_clicked();
 
@@ -129,11 +129,7 @@ private slots:
 
   void on_face_haar_clicked();
 
-  void on_camera2_clicked();
+  static void on_camera2_clicked();
 
   void on_camera2_2_clicked();
-
-private:
-  Ui::MainWindow* ui;
 };
-#endif // MAINWINDOW_H
