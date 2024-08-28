@@ -1925,7 +1925,7 @@ void MainWindow::on_Haar_1_clicked()
     imshow("gray_img",gray_img);
     Mat sum_img = Mat::zeros(gray_img.rows + 1, gray_img.cols + 1,CV_32FC1);
     //Mat sqsum_img = Mat::zeros(gray_img.rows + 1, gray_img.cols + 1,CV_64FC1);
-    integral(grayImg,sum_img,CV_64F);
+    cv::integral(grayImg,sum_img,CV_64F);
 
     int step_x = 8, step_y = 8;
     double sum;
@@ -1967,7 +1967,7 @@ void MainWindow::on_Haar_2_clicked()
     imshow("gray_img",gray_img);
     Mat sum_img = Mat::zeros(gray_img.rows + 1, gray_img.cols + 1,CV_32FC1);
     //Mat sqsum_img = Mat::zeros(gray_img.rows + 1, gray_img.cols + 1,CV_64FC1);
-    integral(grayImg,sum_img,CV_64F);
+    cv::integral(grayImg,sum_img,CV_64F);
 
     int step_x = 8, step_y = 8;
     double sum;

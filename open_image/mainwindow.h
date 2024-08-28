@@ -21,14 +21,14 @@
 #include <vector>
 #include <opencv2/calib3d/calib3d.hpp>
 #include "opencv2/calib3d.hpp"
-#include <opencv2/xfeatures2d.hpp>
+//#include <opencv2/xfeatures2d.hpp>
 #include <opencv2/features2d/features2d.hpp>
 #include <stdio.h>
 #include <fstream>
 #include <opencv2/highgui/highgui_c.h>
 #include <opencv2/highgui.hpp>
-#include <opencv2/optflow/motempl.hpp>
-#include <opencv2/xfeatures2d.hpp>
+//#include <opencv2/optflow/motempl.hpp>
+//#include <opencv2/xfeatures2d.hpp>
 #include "opencv2/imgcodecs/legacy/constants_c.h"
 using namespace cv;
 using namespace std;
@@ -40,7 +40,7 @@ QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
-    Q_OBJECT
+    // Q_OBJECT
 
 public:
     MainWindow(QWidget *parent = nullptr);
