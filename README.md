@@ -26,10 +26,13 @@ C++
 
 ## Result
 
-<img src="https://github.com/QiTianyu-0403/OpenCVImage/blob/main/1.jpg" width="900" >
+<img src="./assets/1.jpg" width="900" >
 
 ## More
 
 If you want to know more about this code, you can click [the detailed explanation](https://zhuanlan.zhihu.com/p/461643864) of this code or contact me via the link above.😊
 
 You can find a python version of similar functionality [here](https://github.com/Livioni/pyqt_image_process).
+
+
+If you are not using qtCreator, you can just use uic(qt's User Interface Compiler) to generate ui_mainwindow.h from mainwindow.ui
