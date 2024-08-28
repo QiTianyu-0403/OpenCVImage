@@ -2,12 +2,12 @@
 
 #include <QApplication>
 
-int main(int argc, char *argv[])
+int main( int argc, char* argv[] )
 {
-    vector<vector<Point>> contours;
+  vector<vector<Point>> contours;
 
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+  QApplication a( argc, argv );
+  MainWindow w;
+  w.show();
+  return a.exec();
 }
